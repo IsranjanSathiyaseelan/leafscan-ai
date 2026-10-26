@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Expo / Node
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Raw datasets
+data/raw/
+
+# Downloaded archives
+*.zip
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
