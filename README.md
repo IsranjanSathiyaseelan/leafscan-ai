@@ -123,13 +123,6 @@ After changing `.env`, restart with `npx expo start --clear`.
 | GET | `/api/classes` | Supported classes |
 | POST | `/api/predict` | Predict a leaf image |
 
-`/api/predict` accepts raw JPEG or PNG bytes (not multipart form data), up to 10 MB:
-
-```powershell
-curl.exe -X POST "http://localhost:8000/api/predict" `
-  -H "Content-Type: image/jpeg" `
-  --data-binary "@C:\path\to\tomato-leaf.jpg"
-```
 
 Example response:
 
